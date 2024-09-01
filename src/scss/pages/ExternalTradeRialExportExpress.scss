@@ -1,0 +1,28 @@
+.RealRialsToIraqAndAfghanistanHeader {
+  display: flex;
+}
+.real-rials-to-Iran--excel {
+  display: flex;
+  justify-content: space-between;
+}
+.real-rials-iran--Row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 12px;
+}
+.containerRialArzi {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) 0.5);
+  padding-left: calc(var(--bs-gutter-x) 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.real-rial--description {
+  background-color: $blue-glowing;
+  border: none;
+  border-radius: 2px;
+  color: white;
+}

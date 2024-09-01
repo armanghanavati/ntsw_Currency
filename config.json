@@ -1,0 +1,7 @@
+{
+  "baseUrl": {
+    "dev": "http://172.16.229.32/api/",
+    "staging": "https://lab.ntsw.ir/users/ac/gateway/api/",
+    "prod": "https://ntsw.ir/users/ac/gateway/api/"
+  }
+}

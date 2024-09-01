@@ -1,0 +1,13 @@
+/node_modules
+/coverage
+/build
+/*.pnp
+*.pnp.js
+*.zip
+*.rar
+/*.env
+*.DS_Store
+*.log
+*.zip
+*.7z
+*.log

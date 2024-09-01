@@ -1,0 +1,63 @@
+.ExternalTradeCostManagementOfExportQuotasRaido{
+    font-size: 16px;
+
+}
+.ExternalTradeCostManagementOfExportQuotasColumn{
+    display: grid;
+  grid-template-columns: 1fr 2fr 1fr ; 
+  gap:40px;
+margin-bottom: 30px;
+
+/* Optional gap between columns */
+  /* You can also set other grid properties like grid-template-rows, grid-template-areas, etc. as needed */
+}
+@media (max-width: 1072px) { /* Adjust the max-width to your specific breakpoint */
+    .ExternalTradeCostManagementOfExportQuotasColumn {
+      grid-template-columns: 1fr;
+    }
+  }
+.ExternalTradeCostManagementOfExportQuotasInputs{
+    display: flex;
+   
+}
+@media (max-width: 1260px) { /* Adjust the max-width to your specific breakpoint */
+    .ExternalTradeCostManagementOfExportQuotasInputs {
+   flex-direction: column;
+   width: 90%;
+    }
+  }
+.marginRight{
+    margin-right: 0px;
+}
+.flex{
+    display: flex;
+}
+.buttonInquiry{
+
+  margin-top: 1.125rem;
+  // display: grid;
+  // grid-template-columns: 1fr 1fr 1fr ; 
+  // gap:40px;
+}
+.buttonInquiry > *:nth-child(2) {
+  grid-column: 2; /* Place the second child (your button) in the second column */
+  justify-self: center; 
+  margin-right: 4.125rem;
+  /* Right-align the button within its cell */
+}
+.nasi{
+  width: 7rem;
+}
+.card-header{
+  background-color: $gray-middle;
+}
+// .custom-footer-table {
+ 
+//   padding: 0 !important;
+//   margin: 0;
+// }
+.customLicenceInput{
+  border: 1px solid black;
+  border-radius: 5px;
+box-sizing: border-box;
+}

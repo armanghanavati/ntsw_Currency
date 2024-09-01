@@ -1,0 +1,132 @@
+.overallScore {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  &--label {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+  }
+
+  &--star {
+    width: 70%;
+    display: flex;
+    direction: ltr;
+    gap: 8px;
+  }
+}
+.total {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: antiquewhite;
+  padding: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.opinion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  width: fit-content;
+  padding-inline: 4px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 2px;
+  background-color: #d9534f;
+}
+
+.importersSuggestions {
+  margin-bottom: 19px;
+}
+
+@media screen and (max-width: 980px) {
+  .importersSuggestions {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 898px) {
+  .importersSuggestions {
+    margin-bottom: -5px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .overallScore {
+    gap: 5px;
+    &--label {
+      justify-content: space-between !important;
+      gap: 0;
+    }
+  }
+}
+
+.tradesStatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.parentComments {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(197, 195, 195);
+  padding: 10px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff7d025c;
+  padding: 5px;
+  margin-bottom: 25px;
+  font-size: 12px;
+}
+
+.comments {
+  width: 100%;
+  text-align: right;
+  padding-right: 35px;
+  font-size: 12px;
+}
+
+.not-displaying-comments {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+  font-size: 13px;
+}
+
+.nothing-found {
+  border: 1px solid black;
+  border-bottom: 1px solid #111;
+  padding: 10px;
+  height: 100px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.totalComments {
+  display: flex;
+  margin-top: 15px;
+  padding: 7px 7px 7px 20px;
+  font-weight: bold;
+  border: 1px solid #c5c3c3;
+}
+.ant-progress-bg {
+  height: 18px !important;
+  border-radius: 3px !important;
+}
+
+.ant-progress-inner {
+  border-radius: 3px !important;
+}

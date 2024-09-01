@@ -1,0 +1,333 @@
+// .modal {
+//   &--title {
+//     font-size: 1.1rem;
+//     font-weight: bold !important;
+//     padding: 0 20px;
+//     color: unset;
+//   }
+
+//   &--text {
+//     font-size: 0.9rem;
+//     margin: 0px 0 20px 0;
+//     padding: 0 20px;
+//   }
+
+//   &--buttons {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-evenly;
+//   }
+// }
+
+// .ant-modal {
+//   width: 40% !important;
+//   box-shadow: 0 0 40px rgb(0 0 0 / 50%);
+//   padding-bottom: 0 !important;
+// }
+// .modaleIntroduction {
+//   width: 40% !important;
+// }
+
+// .ant-modal-body {
+//   padding: 14px 0px !important;
+// }
+
+// .ant-modal-body>button {
+//   margin: auto !important;
+// }
+
+// .ant-modal-content {
+//   background-color: unset !important;
+// }
+
+// // modal inside of components for Complex operations
+// .ant-modal-close {
+//   left: 0 !important;
+//   right: unset !important;
+// }
+
+// .ant-modal-title {
+//   text-align: right !important;
+//   font-size: 18px !important;
+//   color: inherit !important;
+//   font-weight: 300px !important;
+// }
+
+// .ant-modal-close-x {
+//   color: $red-base ;
+// }
+
+// .modal-body {
+//   margin: 0 20px;
+// }
+
+// .ant-modal-footer {
+//   display: flex;
+//   border-top: 0;
+//   padding: 0;
+// }
+
+// .colorFooter{
+//   width: 100%;
+//   display: flex;
+//   background-color: $gray-background-base !important;
+//   padding: 10px;
+// }
+
+// .ant-modal-header {
+//   color: unset !important;
+//   background-color: $gray-background-base !important;
+//   border-bottom: 1px solid #e5e5e5;
+//   padding: 10px 20px 10px 15px !important;
+// }
+
+// .modal {
+//   &--title {
+//     font-size: 1.1rem;
+//     font-weight: bold !important;
+//     padding: 0 20px;
+//     color: unset;
+//   }
+
+//   &--text {
+//     font-size: 0.9rem;
+//     margin: 0px 0 20px 0;
+//     padding: 0 20px;
+//   }
+
+//   &--buttons {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-evenly;
+//   }
+// }
+
+// .ant-modal {
+//   box-shadow: 0 0 40px rgb(0 0 0 / 50%);
+//   padding-bottom: 0 !important;
+// }
+
+// .ant-modal-body {
+//   padding: 14px 0px !important;
+//   text-align: center;
+// }
+
+// .ant-modal-body > button {
+//   margin: auto !important;
+// }
+
+// .ant-modal-content {
+//   background-color: unset !important;
+// }
+
+// // modal inside of components for Complex operations
+// .ant-modal-close {
+//   left: 0 !important;
+//   right: unset !important;
+// }
+
+// .ant-modal-title {
+//   text-align: right !important;
+//   font-size: 0.95rem !important;
+//   color: inherit !important;
+// }
+
+// .ant-modal-close-x {
+//   color: $red-base;
+// }
+
+// .modal-body {
+//   margin: 0 20px;
+// }
+
+.ant-modal-footer {
+  display: flex;
+  justify-content: left;
+}
+
+// .ant-modal-header {
+//   color: unset !important;
+//   background-color: unset !important;
+// }
+
+// --------NEW-------
+.modal {
+  &--title {
+    font-size: 1.1rem;
+    font-weight: bold !important;
+    padding: 0 20px;
+    color: unset;
+  }
+
+  &--text {
+    font-size: $font-menu;
+    margin: 0px 0 20px 0;
+    padding: 0 20px;
+    &--bold {
+      font-weight: bold;
+    }
+  }
+
+  &--warning {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(255 255 50 / 21%);
+    border-right: 4px solid orange;
+    padding: 5px 10px;
+    margin-left: 6px;
+    color: inherit;
+  }
+
+  &--buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+.ant-modal {
+  box-shadow: 0 0 40px rgb(0 0 0 / 50%);
+  padding-bottom: 0 !important;
+}
+
+.questionModal {
+  width: 40% !important;
+}
+
+.foreign-modal .ant-modal-header {
+  display: flex;
+  flex-direction: row-reverse;
+  border-bottom: 3px solid #ed4e2a;
+  text-align: left;
+}
+
+.foreign-modal .ant-modal-title {
+  font-weight: 700;
+}
+
+.f-weight .ant-modal-title {
+  font-weight: unset;
+}
+
+.foreign-modal .foreign-modal {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: left;
+}
+
+.foreign-modal .ant-modal-title {
+  text-align: unset !important;
+}
+
+.foreign-modal .ant-modal-close {
+  display: none;
+}
+
+.f-weight .ant-modal-close {
+  right: 0 !important;
+  display: block !important;
+}
+
+.modaleIntroduction {
+  width: 40% !important;
+}
+
+.ant-modal-body {
+  padding: 14px 0px !important;
+  text-align: center;
+}
+
+.questionModal .ant-modal-body {
+  text-align: right;
+}
+
+.ant-modal-body > button {
+  margin: auto !important;
+}
+
+.ant-modal-content {
+  background-color: unset !important;
+}
+
+// modal inside of components for Complex operations
+.ant-modal-close {
+  left: 0 !important;
+  right: unset !important;
+}
+
+.ant-modal-title {
+  text-align: right !important;
+  font-size: 18px !important;
+  color: inherit !important;
+  font-weight: 300px !important;
+}
+
+.ant-modal-close-x {
+  color: $red-base;
+}
+
+.modal-body {
+  margin: 0 20px;
+}
+
+.notColorFooter {
+  width: 100%;
+  display: flex;
+  padding: 10px 10px 20px;
+}
+
+.colorFooter {
+  width: 100%;
+  display: flex;
+  // background-color: $gray-background-base !important;
+  padding: 10px;
+}
+
+.ant-modal-header {
+  color: unset !important;
+  background-color: unset !important;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 20px 10px 15px !important;
+}
+
+.colorFooter {
+  width: 100%;
+  display: flex;
+  // background-color: $gray-background-base !important;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1500px) {
+  .questionModal {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .questionModal {
+    width: 60% !important;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .questionModal {
+    width: 80% !important;
+  }
+
+  .ant-modal-header {
+    padding: 10px !important;
+  }
+
+  .ant-modal-title {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .questionModal {
+    width: 90% !important;
+  }
+}

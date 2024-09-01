@@ -1,0 +1,26 @@
+.parentShopping{
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    -webkit-box-shadow: 0 0 4px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0,.3);
+    box-shadow: 0 0 4px rgb(0 0 0 / 30%);
+    color: #555;
+    padding-right: 12px;
+    margin: 8px 0;
+    font-size: 20px !important;
+    border-bottom:2px solid #fb6e52 ;
+}
+
+.wrapperBtn{
+  margin-top: 3px;
+  padding:0 5px;
+  border-right: 1px solid #e5e5e5;
+}
+
+.gap-icon{
+ display: flex;
+ gap: 5px;
+}

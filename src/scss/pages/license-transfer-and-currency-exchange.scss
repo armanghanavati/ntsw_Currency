@@ -1,0 +1,57 @@
+.transfer-of-license-and-currency-exchange--border {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  padding: 15px 10px 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+@media screen and (max-width: 800px) {
+  .transfer-of-license-and-currency-exchange--border {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+.card-shadow {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.green-column-background {
+  background-color: #7df05a !important;
+}
+
+.confirm-modal-describe {
+  color: $error-text !important;
+}
+
+.tooltip-custom--without-border {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5.7px;
+  cursor: pointer;
+  position: relative;
+  margin: 0 0 10px;
+}
+
+.tooltip-animation--light {
+  width: 13px;
+  height: 13px;
+  background-size: 100% 100%;
+  background-color: rgb(216, 216, 216);
+  border-radius: 50rem;
+  border: 10px solid rgb(255, 255, 255);
+  animation: light-puls 3s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.3;
+}

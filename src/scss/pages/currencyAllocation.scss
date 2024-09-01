@@ -1,0 +1,138 @@
+.currencyInput {
+    display: flex;
+    width: 100%;
+}
+
+.currencyBox1 {
+    height: 50px;
+    padding: 5px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    color: black;
+
+}
+
+.currencyBox1Tag {
+    font-size: .625rem !important;
+}
+
+.currencyBox2 {
+    height: 50px;
+    padding: 10px;
+    width: 74.5%;
+    background-color: rgba(255, 255, 0, 0.18);
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var($black-input);
+}
+
+.container_next_back_Step_center {
+    display: flex;
+    justify-content: center;
+}
+
+.container_next_back_end {
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: end;
+}
+
+.container_shadow {
+    -webkit-box-shadow: 0 -3px 7px 0 rgba(0, 0, 0, 0.48);
+    box-shadow: 0 -3px 7px 0 rgba(0, 0, 0, 0.2)
+}
+
+.rowContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.containerCol {
+    width: 100%;
+    // display: flex;
+    // flex-direction: column;
+}
+
+.ant-tooltip-inner {
+    min-width: 30px;
+    min-height: 32px;
+    padding: 6px 8px;
+    color: black !important;
+    text-align: left;
+    text-decoration: none;
+    word-wrap: break-word;
+    background-color: #f9fa7e !important;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.bg-danger {
+    background-color: red;
+}
+
+.marginTop-20 {
+    margin-top: 20px;
+}
+
+.tooltip-custom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5.7px;
+    cursor: pointer;
+    position: relative;
+    margin: 0 0 10px;
+    border: 1px solid rgb(204, 204, 204);
+    border-right: 1px solid #fff;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.currencyAddButton {
+    display: flex;
+}
+
+.container-docs {
+    background-color: #fff1a8 !important;
+    padding: 10px;
+}
+
+.container_Base{
+    padding: 30px;
+}
+
+.dark_Container_docs {
+    background-color: rgb(114, 97, 8);
+    padding: 10px;
+}
+
+.d-in-block {
+    display: inline-block;
+}
+
+.font-bold-in-block {
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 2px;
+}

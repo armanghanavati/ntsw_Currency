@@ -1,0 +1,54 @@
+.ExternalTradeSummeryofCommitmentsinput {
+  display: flex;
+  flex-direction: column; /* Default to column */
+  width: "100%";
+ }
+ 
+ @media (min-width: 1200px) { /* Change to row when viewport is 1200px or wider */
+  .ExternalTradeSummeryofCommitmentsinput {
+    flex-direction: row;
+    width:26rem;
+  }
+ }
+.ExternalTradeSummeryofCommitmentsIllegal{
+  display: flex;
+  justify-content: center;
+ 
+
+  margin-top: 4rem;
+  gap: 4rem;
+ 
+
+}
+@media (max-width: 1240px) {
+  .ExternalTradeSummeryofCommitmentsIllegal {
+    width: 70%;
+    flex-direction: column; /* Change flex direction to column */
+    align-items: center; /* Center items vertically when in column mode */
+  }
+}
+.ExternalTradeSummeryofCommitmentsGuidBox{
+  display: flex;
+  justify-content: flex-start; /* Align items to the start of the flex container */
+  align-items: center; /* Align items vertically in the center */
+padding: 0;
+flex-grow: 1;
+}
+.ExternalTradeSummeryofCommitmentsMain{
+  padding: 0 !important;
+}
+
+.custom-modal .ant-modal-close {
+  display: none; /* Hide the cancel button in the header */
+}
+.modalMain{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modalMain :nth-child(2) {
+ align-self: flex-end;
+}

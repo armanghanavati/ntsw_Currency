@@ -1,0 +1,160 @@
+// date picker
+.date-picker {
+  position: relative;
+  &--remove-icon {
+    position: absolute;
+    display: inline;
+    right: 3px;
+    top: 4px;
+    cursor: pointer;
+    z-index: 110 !important;
+    font-size: 0.9rem;
+    color: $gray-placeholder;
+  }
+  // &-dropdown__dark .ant-picker-panel-container {
+  //   background-color: $black-input !important;
+  //   color: $white-base !important;
+  // }
+  // &-dropdown__dark .ant-picker-time-panel-cell-inner {
+  //   color: $white-base !important;
+  // }
+
+  // &-dropdown__dark
+  //   .ant-picker-panel-container
+  //   .ant-picker-cell-disabled::before {
+  //   background-color: $gray-middle;
+  // }
+
+  // &-dropdown__dark .ant-picker-panel-container .ant-picker-cell-disabled {
+  //   color: rgb(190, 187, 187) !important;
+  // }
+
+  // &-dropdown__dark .ant-picker-panel-container .ant-picker-cell-end::before {
+  //   color: rgb(129, 128, 128) !important;
+  // }
+  // &--calendar {
+  //   background-color: rgb(128, 128, 128) !important;
+  //   color: rgb(255, 255, 248) !important;
+  //   // z-index: 2000 !important;
+  // }
+}
+// .ant-picker-cell:hover:not(.ant-picker-cell-in-view) .ant-picker-cell-inner,
+// .ant-picker-cell:hover:not(.ant-picker-cell-selected):not(
+//     .ant-picker-cell-range-start
+//   ):not(.ant-picker-cell-range-end):not(.ant-picker-cell-range-hover-start):not(
+//     .ant-picker-cell-range-hover-end
+//   )
+//   .ant-picker-cell-inner {
+//   background: var(--ant-primary-color-hover);
+//   color: $white-base !important;
+// }
+
+// .ant-picker-time-panel-cell:hover .ant-picker-time-panel-cell-inner,
+// .ant-picker-time-panel-cell:hover:not(.ant-picker-time-panel-cell-selected):not(
+//     .ant-picker-time-panel-cell-range-end
+//   ):not(.ant-picker-time-panel-cell-range-hover-start):not(
+//     .ant-picker-time-panel-cell-range-hover-end
+//   )
+//   .ant-picker-time-panel-cell-inner {
+//   background: var(--ant-primary-color-hover);
+//   color: $white-base !important;
+// }
+// .ant-picker-time-panel-column
+//   > li.ant-picker-time-panel-cell-selected
+//   .ant-picker-time-panel-cell-inner {
+//   background: var(--ant-primary-color-hover);
+//   color: $white-base !important;
+// }
+// .ant-picker-time-panel-column
+//   > li.ant-picker-time-panel-cell-selected
+//   .ant-picker-time-panel-cell-inner:hover {
+//   background: var(--ant-primary-color-hover);
+//   color: $white-base !important;
+// }
+
+// .date-picker-dropdown__dark
+//   .ant-picker-time-panel-column
+//   > li.ant-picker-time-panel-cell-selected
+//   .ant-picker-time-panel-cell-inner {
+//   background: var(--ant-primary-color-hover);
+// }
+
+// .ant-picker-cell-disabled__dark {
+//   background-color: var(--ant-primary-color-disabled);
+// }
+
+// .ant-picker-cell,
+// .ant-picker-header > button {
+//   color: $gray-placeholder;
+// }
+// .ant-picker-header > button:hover {
+//   color: inherit !important;
+// }
+// .ant-picker-rtl .ant-picker-suffix {
+//   margin-right: 2px !important;
+//   margin-left: 2px !important;
+// }
+// .ant-picker-header,
+// .ant-picker-cell-in-view {
+//   color: inherit !important;
+// }
+
+// .ant-picker-content th {
+//   color: inherit !important;
+// }
+// .ant-picker-body {
+//   color: inherit !important;
+// }
+// .ant-picker {
+//   border: none !important;
+//   background: inherit !important;
+//   padding: 7px 20px 7px 1px !important;
+//   color: inherit !important;
+//   font-size: 12px !important;
+//   width: 100% !important;
+// }
+// .date-picker {
+//   width: 100% !important;
+// }
+// .ant-picker-input > input {
+//   font-size: 12px !important;
+//   color: inherit !important;
+//   background-color: inherit !important;
+//   padding-left: 8px;
+//   overflow: hidden;
+//   font-weight: normal;
+//   white-space: nowrap;
+//   text-overflow: ellipsis;
+// }
+// .ant-picker-clear {
+//   right: -15px !important;
+//   background-color: inherit !important;
+// }
+// .ant-picker-suffix {
+//   color: $gray-placeholder !important ;
+// }
+// .ant-picker-dropdown {
+//   font-size: 12px !important;
+// }
+
+// .ant-picker-month-btn {
+//   padding-left: 7px !important;
+// }
+.date-picker {
+  width: 100% !important;
+}
+.rmdp-input {
+  background-color: inherit !important;
+  border: none !important;
+  padding-right: 19px !important;
+  font-size: 13px;
+  width: 100% !important;
+  &:focus {
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.rmdp-container {
+  width: 100% !important;
+}
